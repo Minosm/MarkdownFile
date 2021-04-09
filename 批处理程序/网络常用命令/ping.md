@@ -18,7 +18,7 @@ ping 127.0.0.1 查看自己网卡状态
 >
 > ##### ping -n 数字 目标ip地址修改ping包的数量
 >
-> ##### nslookup www.xxx.com手动解析域名的ip地址
+> ##### nslookup www.xxx.com手动解析域名的ip地址 name sever
 
  Intent Control Message Protocol, 中文过来就是 **互联网控制报文协议**
 
@@ -30,8 +30,9 @@ C、协议不可达 — 代码为 2.
 D、端口不可达 — 代码为 3.
 E、需要分段 - 代码为 4.（ 必须把数据分段才能去到终点 ）
 
-**Traceroute**
- Traceoute  有点像是在不断试错的意思。是用来侦测主机到目的主机之间所经路由情况的重要工具。Ping 我们知道是可以知道这条大路通不通的，Traceoute 通过设置  TTL 知道到底是哪个路由器不通。
+##### Windows下是tracert
+
+ Traceroute  有点像是在不断试错的意思。是用来侦测主机到目的主机之间所经路由情况的重要工具。Ping 我们知道是可以知道这条大路通不通的，Traceoute 通过设置  TTL 知道到底是哪个路由器不通。
 
 真的有死亡之ping
 

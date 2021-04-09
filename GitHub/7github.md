@@ -56,7 +56,7 @@ git clone address即可
 
 因为系统默认就是这个。。。（在其他终端clone一次后，默认会把url的别名设置为origin）
 
-##### pwd可以查看自己位置
+##### pwd可以查看自己位置——print work dictionary
 
 ##### ls是查看文件夹内容
 
